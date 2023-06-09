@@ -4,17 +4,15 @@ export function Post() {
   return (
     <div>
       <article className={styles.post}>
-        <header>
+        <header className={styles.postHeader}>
           <div className={styles.author}>
             <img
               className={styles.avatar}
               src="https://github.com/tatiane-leal.png"
             />
             <div className={styles.authorInfo}>
-              <div>
-                <strong>Tatiane Sala</strong>
-                <span>Front End Developer</span>
-              </div>
+              <strong>Tatiane Sala</strong>
+              <span>Front End Developer</span>
             </div>
           </div>
 
@@ -29,15 +27,18 @@ export function Post() {
           <p>I have just published my new portfolio!</p>
 
           <p>
-            You can check it out at
-            <a href="#">
-              {" "}
-              https://github.com/tatiane-leal/tatiane-leal.github.io
-            </a>
+            <span>You can check it out at </span>
+            <span>
+              <a href="https://tatiane-leal.github.io/" target="_blank">
+                tatiane-leal.github.io
+              </a>
+            </span>
           </p>
 
           <p>
-            <a href="#"> #newportfolio #projects #showcase</a>
+            <a href="#"> #newportfolio</a>
+            <a href="#"> #projects</a>
+            <a href="#"> #showcase</a>
           </p>
         </div>
       </article>
