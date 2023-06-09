@@ -20,7 +20,7 @@ export function Comment() {
             </div>
 
             <button title="Delete comment">
-              <Trash size={20} />
+              <Trash size={24} />
             </button>
           </header>
           <p>That's great! Congratulations!</p>
@@ -28,8 +28,7 @@ export function Comment() {
         <footer>
           {/* This button does not need a title attr because it has a text "Cheer up" */}
           <button>
-            <ThumbsUp />
-            Cheer up<span>20</span>
+            <ThumbsUp /> Cheer up <span> 20</span>
           </button>
         </footer>
       </div>
