@@ -8,3 +8,15 @@
   gap: 2rem;
   align-items: flex-start;
 }
+
+/* When screen size is less than 768px */
+@media (max-width: 768px) {
+  html {
+    /* 14 * 100/16 (1rem equals 16px*/
+    font-size: 87, 5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
