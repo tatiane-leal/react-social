@@ -1,6 +1,6 @@
-import styles from "./Header.module.css";
+import styles from "./HeaderC.module.css";
 
-export function Header() {
+export function HeaderC() {
   return (
     <header className={styles.header}>
       <strong>React Social Feed</strong>
